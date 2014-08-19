@@ -4,6 +4,6 @@ With the use of this extension users can get updates in just one click instead o
 
 Download link: https://chrome.google.com/webstore/detail/bit-mesra-tnp/kahfhbidkplnakhhgodbehpgcpdfagnd?hl=en-GB
 
-All rights reserved. Duplicity of the content here is not premissible.
+All rights reserved. Duplicity of the content is not allowed.
 
 For any queries contact Sumit Agarwal: sumagarwal93@gmail.com
