@@ -1,0 +1,23 @@
+body {
+	background-color: #fff;
+	width: 350px;
+	font-family: Arial;
+	font-size: 8px;
+}
+
+body a{
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table, tr {
+	border-style:none;
+    font-size: 14px;
+    text-decoration:none;
+    border-bottom: 1px solid #999;
+}
+
+.notice{
+	background: #fff;
+}

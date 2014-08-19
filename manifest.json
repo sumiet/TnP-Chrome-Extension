@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "BIT Mesra TnP.",
+  "description": "This extension will help you to remain updated with latest notices bieng uploaded on the BIT Mesra TnP Portal.",
+  "version": "1.0",
+  "icons" : {
+		"16":"Icons/icon.png",
+		"48":"Icons/icon.png",
+		"128":"Icons/icon.png"
+	},	
+
+  "browser_action": {
+    "default_icon": "Icons/icon.png",
+    "default_popup": "BrowserAction/popup.html"
+  },
+  "web_accessible_resources":["BrowserAction/js/popup.js","BrowserAction/js/style.css"],
+	"permissions": [ "tabs","http://*/*"]
+}
