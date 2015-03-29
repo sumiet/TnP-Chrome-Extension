@@ -96,7 +96,7 @@ function initialize()
   localStorage.setItem("timeStamp",timeStamp());
   localStorage.setItem("count","0");
   chrome.browserAction.setBadgeText({text: ''});
-  //console.log(localStorage.getItem("timeStamp"));
+  console.log(localStorage.getItem("timeStamp"));
   var loading = document.createElement('div');
   document.body.appendChild(loading);
   loading.setAttribute('id','loading');

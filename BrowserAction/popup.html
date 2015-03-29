@@ -1,24 +1,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<!-- Copyright Sumit Agarwal and Koushik MLN , before using any of the 
-content available here do take permissions by writing us at sumagarwal93@gmail.com -->
+<!-- Copyright Sumit Agarwal and Koushik M.L.N. All Rights Reserved.  -->
 <head>
-<meta author="Sumit Agrwal">
-<meta author="Koushik MLN">
-<meta content="This file is part of a training and placement chrome extension of BIT Mesra. ">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./css/dataTables.bootstrap.css">
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/table.js"></script>
+<script src="./js/dataTables.bootstrap.js"></script>
 <script src="./js/popup.js"></script>
-<script type="text/javascript"></script>
 </head>
 <body>
-<center><u><h1>BIT Mesra TnP Portal Updates</h1></u></center>
-<!--<center><div id="gola"><img src="../images/loading.gif"></div></center>-->
+<center><u><h3>BIT Mesra</br>TnP Portal Updates</h3></u></center>
 <div id="tab" style="visibility:hidden;">
-<table id="updates" width="350px">
+<table id="updates" class="display" width="350px">
+	<thead>
 	<tr style="background-color:#E81F0C;">
-		<th>Sl.No</th>
-		<th>Notice</th>
+		<th style="padding-left:5px;">S.No</th>
+		<th style="padding-left:5px;">Notice</th>
 	</tr>
+	</thead>
+	<tbody id="content">
+	</tbody>
 </table>
 </div>
 </center>
